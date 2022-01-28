@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(199, 202, 250);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1{
+    background-color: rgb(243, 206, 247);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+    top: 0;
+    position: fixed;
+}
+
+#open_pop_up_btn{
+    float: right;
+    margin-right: 30;
+}
+
+#object_name,#object_confidence{
+    font: size 55px;
+    margin-top: 125px;
+    margin-bottom: 10px;
+}
+
+canvas{
+    border-radius: 20px;
+    animation-name: shadows;
+    animation-duration: 5s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadows{
+    from{box-shadow: 10px 5px 5px rgb(149, 149, 238);}
+    to{box-shadow: 10px 5px 5px pink;}
+}
